@@ -180,7 +180,7 @@ curl -XPOST  http://localhost:8080/stock -H"Content-type: application/json" -d '
 "marketPrice": 30,
 "type": "COMMON"
 }
-]' | jq .
+]'
 ```
 
 * Calculate Dividend for stock 'POP'
